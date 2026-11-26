@@ -1,0 +1,16 @@
+[2026-11-26 09:44:12,255] OXFLaptop03/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-26 09:44:12,258] OXFLaptop03/INFO/locust.runners: Shape test starting.
+[2026-11-26 09:44:12,259] OXFLaptop03/INFO/locust.runners: Shape worker starting
+[2026-11-26 09:44:12,259] OXFLaptop03/INFO/root: Smoke test started.
+[2026-11-26 09:44:12,259] OXFLaptop03/INFO/locust.runners: Shape test updating to 5 users at 1.00 spawn rate
+[2026-11-26 09:44:12,260] OXFLaptop03/INFO/locust.runners: Ramping to 5 users at a rate of 1.00 per second
+[2026-11-26 09:44:16,286] OXFLaptop03/INFO/locust.runners: All users spawned: {"HappyCdsUser": 5} (5 total users)
+[2026-11-26 09:46:12,964] OXFLaptop03/INFO/root: Smoke test completed successfully. All expected tasks completed.
+[2026-11-26 09:46:12,965] OXFLaptop03/INFO/root: Soak starting: 120 users, 4.0 h measured after a 180 s settle
+[2026-11-26 09:46:12,965] OXFLaptop03/INFO/locust.runners: Shape test updating to 120 users at 2.00 spawn rate
+[2026-11-26 09:46:12,965] OXFLaptop03/INFO/locust.runners: Ramping to 120 users at a rate of 2.00 per second
+[2026-11-26 09:47:10,254] OXFLaptop03/INFO/locust.runners: All users spawned: {"HappyCdsUser": 120} (120 total users)
+[2026-11-26 09:49:13,741] OXFLaptop03/INFO/root: Settle complete, measurement started.
+[2026-11-26 09:59:14,091] OXFLaptop03/INFO/root: Interval 0-10 min: 18875 requests, 0.00% errors, 31.4 RPS, p95 3400 ms
+[2026-11-26 10:09:14,218] OXFLaptop03/INFO/root: Interval 10-20 min: 18466 requests, 0.00% errors, 30.8 RPS, p95 3500 ms
+[2026-11-26 10:19:14,917] OXFLaptop03/INFO/root: Interval 20-30 min: 18093 requests, 0.00% errors, 30.1 RPS, p95 3500 ms

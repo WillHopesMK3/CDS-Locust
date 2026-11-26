@@ -1,0 +1,12 @@
+endpoint,outcome,count,first_time,first_request_no,first_endpoint_request_no,first_users,first_category,last_time,last_request_no,last_endpoint_request_no,last_users,last_category
+/CalculateLandedCost,success,14,2026-11-24 15:46:04.081,4,1,1,OK,2026-11-24 15:55:13.785,122,14,1,OK
+/CalculateLandedCost [country as number],success,1,2026-11-24 15:46:16.377,7,1,1,OK,2026-11-24 15:46:16.377,7,1,1,OK
+/CalculateLandedCost [invalid token],success,2,2026-11-24 15:49:09.707,43,1,1,OK,2026-11-24 15:51:44.546,73,2,1,OK
+/CalculateLandedCost [missing country],success,2,2026-11-24 15:47:43.182,25,1,1,OK,2026-11-24 15:54:39.626,113,2,1,OK
+/CalculateLandedCost [no hsCode],success,4,2026-11-24 15:50:51.310,62,1,1,OK,2026-11-24 15:55:43.755,130,4,1,OK
+/CreateManifest,success,74,2026-11-24 15:45:45.250,1,1,1,OK,2026-11-24 15:55:39.474,129,74,1,OK
+/CreateManifest [EU IOSS],success,3,2026-11-24 15:46:07.941,5,1,1,OK,2026-11-24 15:49:55.013,52,3,1,OK
+/LinkS10ID,success,9,2026-11-24 15:47:21.963,19,1,1,OK,2026-11-24 15:55:37.240,128,9,1,OK
+/QueryDeclaration,success,15,2026-11-24 15:46:45.856,13,1,1,OK,2026-11-24 15:55:35.565,127,15,1,OK
+/QueryDeclaration [hsCode assigned],success,4,2026-11-24 15:50:54.095,63,1,1,OK,2026-11-24 15:55:44.417,131,4,1,OK
+/QueryDeclaration [unknown id],success,3,2026-11-24 15:49:50.578,51,1,1,OK,2026-11-24 15:53:53.544,102,3,1,OK
